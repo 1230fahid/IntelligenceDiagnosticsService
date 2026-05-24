@@ -59,6 +59,7 @@ dependencies = [
     { name = "anthropic" },
     { name = "drain3" },
     { name = "fastapi" },
+    { name = "pydantic" },
     { name = "scikit-learn" },
     { name = "uvicorn" },
 ]
@@ -68,6 +69,7 @@ requires-dist = [
     { name = "anthropic", specifier = ">=0.104.1" },
     { name = "drain3", specifier = ">=0.9.11" },
     { name = "fastapi", specifier = ">=0.136.3" },
+    { name = "pydantic", specifier = ">=2.13.4" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "uvicorn", specifier = ">=0.47.0" },
 ]
